@@ -1,6 +1,6 @@
-#Animation using HTML, CSS & Javascript/jQuery
+# Animation using HTML, CSS & Javascript/jQuery
 
-##Learning Goals
+## Learning Goals
 
 * Hear a story from the history of animation
 * Learn how the history relates to digital animation
@@ -10,7 +10,7 @@
 * See how jQuery can be used for animations
 * Build a functioning dropdown menu from scratch
 
-##A story from the history of animation
+## A story from the history of animation
 
 There is a large and storied history of animation which in itself could fill an entire course.
 
@@ -26,13 +26,13 @@ He set up a series of cameras along a long stretch of road. As the horse was run
 
 Ultimately you can see, Muybridge was right. And, he essentially created a study of motion through capturing different **frames** over a given period of **time**.
 
-![Horse in motion](https://img.buzzfeed.com/buzzfeed-static/static/enhanced/web05/2012/10/16/15/anigif_enhanced-buzz-29520-1350416746-8.gif)
+![Horse in motion](https://upload.wikimedia.org/wikipedia/commons/0/07/The_Horse_in_Motion-anim.gif)
 
 Without knowing it, Muybridge became the inventor of a technique that was used in one of the most successful movie franchises of all time. **The Matrix**. Yes, Muybridge just invented bullet-time, and he didn't even know it.
 
 ![Camera setup](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQePS3UhFEADaX8vexn_Ionk8hg8rsTh5NgOcw9CF4JtogtOox_QA) ![Compilation](http://sabia.tic.udc.es/gc/Contenidos%20adicionales/trabajos/Peliculas/FX/imagenes/ejemplos/matrix_montage_html.jpg)
 
-##How that awesome story relates to digital animation
+## How that awesome story relates to digital animation
 
 Clearly, technology has advanced. 
 
@@ -53,9 +53,9 @@ If I have a `<div></div>` with `position: absolute`, `height: 50px` and `width: 
 The computer will draw all the frames necessary for the animation to have the **illusion** of motion.
 
 
-##A powerful tool when used correctly
+## A powerful tool when used correctly
 
-"With great power comes great responsibility" - Spiderman's Uncle
+"With great power comes great responsibility" - Spiderman's Uncle Ben
 
 First let's look at someone that used it incorrectly.
 
@@ -67,7 +67,7 @@ This immediately makes me want to leave the page.
 2. The animation provides no meaning 
 3. You force the user to make unintended choices
 
-####2 great examples of meaningful animation
+#### 2 great examples of meaningful animation
 
 Apple produts are ripe with examples of good animation
 
@@ -79,15 +79,15 @@ Apple produts are ripe with examples of good animation
     * Same reasons as above
     * you feel as if the mail is actually being physically sent away
     
-####Examples of animation on the web
+#### Examples of animation on the web
 1. [Shameless self-promotion](http://looking.la/projects.php)
 2. [Val Head - queen of animation](http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship)
 
-##CSS Transitions and @keyframes
+## CSS Transitions and @keyframes
 
 2 main ways of achieving animation via CSS is the `transition` property, and the `@keyframes` selector
 
-####The `Transition` Property
+#### The `Transition` Property
 
 Transition property is used to animate property changes on an element most commonly used with the `:hover` psuedo-selector
 
@@ -152,7 +152,7 @@ Add `timing-function` to control flow of animation
 }
 ```
 
-####The Keyframes property
+#### The Keyframes property
 
 [Lessons from thoughtbot](https://robots.thoughtbot.com/css-animation-for-beginners)
 
